@@ -11,6 +11,8 @@ from handlers.other_handlers import register_other_hadler
 # инициализация логгера
 logger = logging.getLogger(__name__)
 
+
+
 # функция для регистрации всех хэндлеров
 def register_all_handlers(dp: Dispatcher) -> None:
     register_user_handlers(dp)
