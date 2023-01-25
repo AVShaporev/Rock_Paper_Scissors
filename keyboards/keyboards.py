@@ -1,5 +1,5 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-from Rock_Paper_Scissors.lexicon.lexicon_ru import LEXICON_RU
+from lexicon.lexicon_ru import LEXICON_RU
 
 
 # содание клавиатуры с кнопками "Давай!" и "Не хочу!"
