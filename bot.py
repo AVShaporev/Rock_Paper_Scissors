@@ -31,7 +31,7 @@ async def main():
     logger.info('Starting bol')
 
     # загрузка конфига в переменную config
-    config: Config = load_config()
+    config: Config = load_config(r'config_data\.env')
 
     # инициализация бота и диспетчера
     bot: Bot = Bot(token=config.tg_bot.token, parse_mode='HTML')

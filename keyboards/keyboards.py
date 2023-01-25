@@ -1,11 +1,11 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
-from lexicon.lexicon_ru import LEXICON_RU
+from Rock_Paper_Scissors.lexicon.lexicon_ru import LEXICON_RU
 
 
 # содание клавиатуры с кнопками "Давай!" и "Не хочу!"
 yes_no_kb: ReplyKeyboardMarkup = ReplyKeyboardMarkup(one_time_keyboard=True,
                                                      resize_keyboard=True)
-button_yes: KeyboardButton = KeyboardButton(LEXICON_RU['yes_button!'])
+button_yes: KeyboardButton = KeyboardButton(LEXICON_RU['yes_button'])
 button_no: KeyboardButton = KeyboardButton(LEXICON_RU['no_button'])
 
 # распрложеие кнопок рядом друг с другом

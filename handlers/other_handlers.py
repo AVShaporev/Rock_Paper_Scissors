@@ -1,7 +1,7 @@
 from aiogram import Dispatcher
 from aiogram.types import Message
 
-from ..lexicon.lexicon_en import LEXICON_RU
+from Rock_Paper_Scissors.lexicon.lexicon_ru import LEXICON_RU
 
 # хэндлер для текстовых сообщений, которые не попали в другие хэндлеры
 async def send_answer(message: Message):

@@ -3,9 +3,9 @@ from aiogram.types import Message
 from aiogram.dispatcher.filters import Text
 
 
-from lexicon.lexicon_ru import LEXICON_RU
-from keyboards.keyboards import yes_no_kb, game_kb
-from services.services import get_bot_choice, get_winner
+from Rock_Paper_Scissors.lexicon.lexicon_ru import LEXICON_RU
+from Rock_Paper_Scissors.keyboards.keyboards import yes_no_kb, game_kb
+from Rock_Paper_Scissors.services.services import get_bot_choice, get_winner
 
 # Этот хэндлер срабатывает на команду /start
 async def process_start_command(message: Message):
